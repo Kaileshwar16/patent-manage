@@ -17,6 +17,7 @@ interface PatentFormProps {
   isEditing?: boolean;
 }
 
+
 const PatentForm = ({ initialData, isEditing = false }: PatentFormProps) => {
   const [patent, setPatent] = useState<Partial<PatentData>>(
     initialData || {
