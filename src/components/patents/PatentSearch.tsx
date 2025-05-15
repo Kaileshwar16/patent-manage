@@ -14,6 +14,7 @@ interface PatentSearchProps {
   isAdmin?: boolean;
 }
 
+
 const PatentSearch = ({ isAdmin = false }: PatentSearchProps) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [category, setCategory] = useState("");
