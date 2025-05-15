@@ -13,6 +13,7 @@ interface PatentDetailProps {
   isAdmin?: boolean;
 }
 
+
 const PatentDetail = ({ isAdmin = false }: PatentDetailProps) => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
